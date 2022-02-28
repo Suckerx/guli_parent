@@ -14,8 +14,8 @@ import java.util.List;
 
 public class TestVod {
     public static void main(String[] args) throws Exception {
-        String accessKeyId = "LTAI5tDy2KHVZ27NiDgahvHJ";
-        String accessKeySecret="zbarkZkWHxMcKOZtAWFzPN7Ko2YRKN";
+        String accessKeyId = "LTAI5tDy2KHVZ27NiDgxxxJ";
+        String accessKeySecret="zbarkZkWHxMcKOZtxxxxN7Ko2YRKN";
 
         String title = "土拨鼠傻叫-upload by sdk";
         String fileName = "D:\\PRCC2019\\素材\\备用视频素材\\土拨鼠傻叫.mp4";
@@ -43,7 +43,7 @@ public class TestVod {
     public static void getPlayAuth() throws Exception {
         //根据视频id获取视频播放凭证
         //创建初始化对象
-        DefaultAcsClient client = InitObject.initVodClient("LTAI5tDy2KHVZ27NiDgahvHJ", "zbarkZkWHxMcKOZtAWFzPN7Ko2YRKN");
+        DefaultAcsClient client = InitObject.initVodClient("LTAI5tDyxxxx27NiDgahvHJ", "zbarkZkWHxMcxxxxxPN7Ko2YRKN");
         //创建获取视频凭证request和response
         GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
         GetVideoPlayAuthResponse response = new GetVideoPlayAuthResponse();
@@ -58,7 +58,7 @@ public class TestVod {
     public static void getPlayUrl() throws Exception {
         //根据视频 id 获取视频播放地址
         //创建初始化对象
-        DefaultAcsClient client = InitObject.initVodClient("LTAI5tDy2KHVZ27NiDgahvHJ", "zbarkZkWHxMcKOZtAWFzPN7Ko2YRKN");
+        DefaultAcsClient client = InitObject.initVodClient("LTAI5tDy2xxxx7NiDgahvHJ", "zbarkZkWHxMxxxxzPN7Ko2YRKN");
 
         //创建获取视频地址request和response
         GetPlayInfoRequest request = new GetPlayInfoRequest();
